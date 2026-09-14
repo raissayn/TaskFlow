@@ -67,15 +67,13 @@ Para iniciar a API:
 
 ```bash
 export PATH="$HOME/.dotnet:$PATH"
-dotnet run --project src/TaskFlow.Api/TaskFlow.Api.csproj --urls http://localhost:5001
+dotnet run --project src/TaskFlow.Api/TaskFlow.Api.csproj --urls http://localhost:5000
 ```
 
 A API ficará disponível em:
 
-- http://localhost:5001/swagger/index.html
-- http://localhost:5001/swagger/v1/swagger.json
-
-> Observação: a porta 5000 pode já estar em uso no ambiente, por isso foi usada a porta 5001 durante a validação.
+- http://localhost:5000/swagger/index.html
+- http://localhost:5000/swagger/v1/swagger.json
 
 ## Endpoints principais
 
